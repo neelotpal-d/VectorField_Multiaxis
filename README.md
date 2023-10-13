@@ -1,5 +1,5 @@
 
-(This is an extended version of the paper IDETC2023-116742, which got the **Best Paper Award** at the ASME IDETC/CIE 2023 Conference, Boston, USA, August 20-23, 2023.)
+(This is an extended version of the paper IDETC2023-116742, which got the [**Best Paper Award**](https://www.linkedin.com/posts/charlie-c-l-wang-8396189a_cadcam-cncmachining-digitalmanufacturing-activity-7099853958055084033-4qXs) at the ASME IDETC/CIE 2023 Conference, Boston, USA, August 20-23, 2023.)
 
 ![Pipeline of the method](./Images/pipeline.jpg)
 
