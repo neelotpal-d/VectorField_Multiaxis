@@ -39,5 +39,7 @@ Installation Steps:
   The location of all of the above files is to be in the folder **DataSet/TET_MODEL**
 
 ### Usage Steps
-`Read Data` -> `Initialise Meshes` -> `Initialise Vector Field` -> `Propagate Field` -> `Generate Scalar Field` -> `IsoLayer Generation`
+[`Read Data`](#ReadData) -> `Initialise Meshes` -> `Initialise Vector Field` -> `Propagate Field` -> `Generate Scalar Field` -> `IsoLayer Generation`
+### <a name ="ReadData"></a> Read Data
+
 
