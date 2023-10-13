@@ -1,7 +1,7 @@
 
 (This is an extended version of the paper IDETC2023-116742, which got the **Best Paper Award** at the ASME IDETC/CIE 2023 Conference, Boston, USA, August 20-23, 2023.)
 
-![Pipeline of the method](../main/Images/pipeline.jpg)
+![Pipeline of the method](./Images/pipeline.jpg)
 
 ## Abstract
 This paper presents an easy-to-control volume peeling method for multi-axis machining based on the computation taken on vector fields. The current scalar field based methods are not flexible and the vector-field based methods do not guarantee the satisfaction of the constraints in the final results. We first conduct an optimization formulation to compute an initial vector field that is well aligned with those anchor vectors specified by users according to different manufacturing requirements. The vector field is further optimized to be an irrotational field so that it can be completely realized by a scalar field's gradients. Iso-surfaces of the scalar field will be employed as the layers of working surfaces for multi-axis volume peeling in the rough machining. Algorithms are also developed to remove and process singularities of the fields. Our method has been tested on a variety of models and verified by physical experimental machining. 
