@@ -1,4 +1,3 @@
-# Vector Field Based Volume Peeling for Multi-Axis Machining
 
 (This is an extended version of the paper IDETC2023-116742, which got the **Best Paper Award** at the ASME IDETC/CIE 2023 Conference, Boston, USA, August 20-23, 2023.)
 
