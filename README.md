@@ -8,9 +8,8 @@ This paper presents an easy-to-control volume peeling method for multi-axis mach
 
 
 ## Video Summary
-<div style="positon: relative; width: 100%; padding-bottom: 56.25%;">
-<iframe  height= "500" src="https://www.youtube.com/embed/Bzt2oe6YYh8" title="Vector Field Based Volume Peeling for Multi-Axis Machining" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
-</div>
+<iframe  width="100%" height= "480" src="https://www.youtube.com/embed/Bzt2oe6YYh8" title="Vector Field Based Volume Peeling for Multi-Axis Machining" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+
 
 
 
