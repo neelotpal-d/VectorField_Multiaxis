@@ -1,3 +1,12 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07BGR3LPXZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+  gtag('config', 'G-07BGR3LPXZ');
+
+</script>
 
 (This is an extended version of the paper IDETC2023-116742, which got the [**Best Paper Award**](https://www.linkedin.com/posts/charlie-c-l-wang-8396189a_cadcam-cncmachining-digitalmanufacturing-activity-7099853958055084033-4qXs) at the ASME IDETC/CIE 2023 Conference, Boston, USA, August 20-23, 2023.)
 
