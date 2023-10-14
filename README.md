@@ -3,8 +3,9 @@
 ![Pipeline of the method](./Images/pipeline.jpg)
 
 ## Abstract
-This paper presents an easy-to-control volume peeling method for multi-axis machining based on the computation taken on vector fields. The current scalar field based methods are not flexible and the vector-field based methods do not guarantee the satisfaction of the constraints in the final results. We first conduct an optimization formulation to compute an initial vector field that is well aligned with those anchor vectors specified by users according to different manufacturing requirements. The vector field is further optimized to be an irrotational field so that it can be completely realized by a scalar field's gradients. Iso-surfaces of the scalar field will be employed as the layers of working surfaces for multi-axis volume peeling in the rough machining. Algorithms are also developed to remove and process singularities of the fields. Our method has been tested on a variety of models and verified by physical experimental machining. 
+This paper presents an easy-to-control volume peeling method for multi-axis machining based on the computation taken on vector fields. The current scalar field based methods are not flexible and the vector-field based methods do not guarantee the satisfaction of the constraints in the final results. We first conduct an optimization formulation to compute an initial vector field that is well aligned with those anchor vectors specified by users according to different manufacturing requirements. The vector field is further optimized to be an irrotational field so that it can be completely realized by a scalar field's gradients. Iso-surfaces of the scalar field will be employed as the layers of working surfaces for multi-axis volume peeling in the rough machining. Algorithms are also developed to remove and process singularities of the fields. Our method has been tested on a variety of models and verified by physical experimental machining. \
 
+[Read the paper here!](https://arxiv.org/pdf/2308.00472.pdf)
 
 ## Installation
 Please compile the code with QMake file “ShapeLab.pro”.
@@ -19,7 +20,9 @@ Installation Steps:
 - Install Intel oneAPI Math Kernel Library (oneMKL download) and enable it at: ShapeLab Property Pages -> Configuration Properties -> Intel Libraries for oneAPI -> Intel oneAPI Math Kernel Library (oneMKL) -> Use oneMKL -> Select 'Parallel'
 - And change the code generation method at: ShapeLab & QMeshLab & GLKLib Property Pages -> Configuration Properties -> C/C++ -> Code Generation -> Runtime Library -> Select 'Multi-threaded(/MT) for release configuration'. Note that this option will be 'Multi-threaded Debug (/MTd) for debug configuration.
 
-
+## Contact Information
+Neelotpal Dutta ([neelotpal.dutta@manchester.ac.uk](mailto:neelotpal.dutta@manchester.ac.uk))\
+Charlie C.L. Wang ([changling.wang@manchester.ac.uk](mailto:changling.wang@manchester.ac.uk))
 
 ## Usage
 ### Files Required:
@@ -31,4 +34,13 @@ Installation Steps:
 
 ### Usage Steps
 `Read Data` -> `Initialise Meshes` -> `Initialise Vector Field` -> `Propagate Field` -> `Generate Scalar Field` -> `IsoLayer Generation`
+
+### Read Data
+To perform the peeling for the model *\<name\>*, type in the name in the 'File' text box and click on the button `Read Data`.
+
+### Initialise Meshes
+Once all the files are read, click the button `Initialise Meshes`. This labels all mesh elements and records the necessary attributes for further processing.
+
+
+### Initialise Vector Field
 
