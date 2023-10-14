@@ -43,4 +43,8 @@ Once all the files are read, click the button `Initialise Meshes`. This labels a
 
 
 ### Initialise Vector Field
+The next step requires us to initialise a vector field inside each tetrahedal element. It can be done by clicking the button `Initialse Vector Field`. This function comes with a few pre-defined options to define the vector field anchors. Select the desired checkboxes- Inner Boundary, Outer Boundary
+or Convex Hull to initialise the anchors on selected surface. This needs to be done before clicking the `Initialise Vector Field` button. To define custom anchor vectors, go ahead with initialising the vector field without selecting any of the checkboxes.
 
+### Assigning Anchor through Vertices
+Once the vector field has been initialised, the custom anchors can be assigned. One way to do this is by selecting a vertex of the tetrahedral mesh of the <name>_materialSpace. To do that, first, hide the model (shown as <name>_modelSurface) and convex hull (shown as <name>_targetrSurface) in the treeView Space (see lower right) by un-checking the corresponding boxes. Now, head to the 'Visualization' tab, which allows us to look inside the mesh and select nodes there. Use the 'slide bar' to change the depth of the section and click on 'Update Section'. On the tool-bar, click on the 'Node' icon to display the vertices.  Now, go to the 'Interact' tab and on the tool-bar, select the 'Handle Rigid' icon (last icon). Now, bring the cursor
