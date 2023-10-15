@@ -33,7 +33,7 @@ Charlie C.L. Wang ([changling.wang@manchester.ac.uk](mailto:changling.wang@manch
   The location of all of the above files is to be in the folder **DataSet/TET_MODEL**
 
 ### Usage Steps
-`Read Data` -> `Initialise Meshes` -> `Initialise Vector Field` -> `Propagate Field` -> `Generate Scalar Field` -> `IsoLayer Generation`
+`Read Data` -> `Initialise Meshes` -> `Initialise Vector Field` -> `Propagate Field` -> `Generate Scalar Field` -> `IsoLayer Generation` -> `ToolPath Generation`
 
 ### Read Data
 To perform the peeling for the model *\<name\>*, type in the name in the 'File' text box and click on the button `Read Data`.
@@ -48,3 +48,16 @@ or Convex Hull to initialise the anchors on selected surface. This needs to be d
 
 ### Assigning Anchor Through Vertices
 Once the vector field has been initialised, the custom anchors can be assigned. One way to do this is by selecting a vertex of the tetrahedral mesh of the <name>_materialSpace. To do that, first, hide the model (shown as \<name\>_modelSurface) and convex hull (shown as \<name\>_targetrSurface) in the treeView Space (see lower right) by un-checking the corresponding boxes. Now, head to the 'Visualization' tab, which allows us to look inside the mesh and select nodes there. Use the 'slide bar' to change the depth of the section and click on 'Update Section'. On the tool-bar, click on the 'Node' icon to display the vertices.  Now, go to the 'Interact' tab and on the tool-bar, select the 'Handle Rigid' icon (last icon). Now, bring the cursor over the vertex that needs to be selected, and **Right Click** on it to select the vertex as anchor. On  the tool-bar, click the 'Profile' icon to display the corresponding anchor vector (note that it is not defined at this point). To define the anchor, click on the `Edit Vector Direction` button and **Left Click** somewhere on the viewport. Now, move the cursor around to change the vector orientation in the current plane. To assign a direction, **Right Click** on the mouse. To see the assigned vector, click on the `Update` button. The (nx,ny,nz) components are displayed on the corresponding boxes. Alternatively, enter the vector components throught the boxes itself and click `Set` (Note that the vector will be normalized). To remove the anchor point, click on `deSelect Node`. To confirm the anchor point and the vector direction, click the `Translate Vector to Tets.` button. Note that the current version does not include an option to remove the anchor point after the confirmation. Following the same steps, assign other anchors, if required.
+
+### Assigning Anchor Through Faces
+ ...Instructions to be added soon...
+
+### Propagate Vector Field
+This step involves solving equation 11 in the paper to generate the vector field in the whole domain (removable volume). Before clicking on the button `Propagate Field`, enter the magnitude (exponent) for the weight assigned to anchors (Represented as Beta in the paper).
+
+### Generate Scalar Field
+After the vector field is solved, click on the button `Generate Scalar Field` to solve the Poisson eqution. Display the nodes to see the colours assigned according to the value of the corresponding scalar field.
+
+### Iso-Layer Generation
+Click on the `Iso-Layer Generation` button to get the layers
+ 
