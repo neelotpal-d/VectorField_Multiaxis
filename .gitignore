@@ -399,6 +399,31 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Ignore Visual Studio solution and project files
+*.sln
+*.vcproj
+*.vcproj.*.user
+
+# Ignore Qt Project files and user files
+*.pro
+*.pro.user
+
+# Ignore build and output directories
+bin/
+obj/
+
+# Ignore user-specific files (Visual Studio, Qt, etc.)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.opendb
+
+# Ignore the .vscode folder
+.vscode/
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
