@@ -506,6 +506,7 @@ public:
         doubleSpinBox_pivotMag->setObjectName(QString::fromUtf8("doubleSpinBox_pivotMag"));
         doubleSpinBox_pivotMag->setMinimum(-9.000000000000000);
         doubleSpinBox_pivotMag->setMaximum(9.000000000000000);
+        doubleSpinBox_pivotMag->setValue(9.000000000000000);
 
         verticalLayout_2->addWidget(doubleSpinBox_pivotMag);
 
