@@ -404,9 +404,6 @@ FodyWeavers.xsd
 *.vcproj
 *.vcproj.*.user
 
-# Ignore Qt Project files and user files
-*.pro
-*.pro.user
 
 # Ignore build and output directories
 bin/
