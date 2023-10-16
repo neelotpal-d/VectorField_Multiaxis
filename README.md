@@ -60,4 +60,7 @@ After the vector field is solved, click on the button `Generate Scalar Field` to
 
 ### Iso-Layer Generation
 Click on the `Iso-Layer Generation` button to get the layers
+
+### Understanding the Code
+**Note that the code is not well commented now.** Comments will be added soon. To understand the code, read the 'MainWindow.h' and 'MainWindow.cpp' files.
  
