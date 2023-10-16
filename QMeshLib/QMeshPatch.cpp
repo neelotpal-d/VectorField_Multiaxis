@@ -12,8 +12,7 @@
 #include "QMeshNode.h"
 #include <stddef.h>
 
-#include <Eigen>
-
+#include "../ThirdPartyDependence/eigen3/Eigen/Dense"
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
