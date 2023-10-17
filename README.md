@@ -63,4 +63,7 @@ Click on the `Iso-Layer Generation` button to get the layers
 
 ### Understanding the Code
 **Note that the code is not well commented now.** Comments will be added soon. To understand the code, read the 'MainWindow.h' and 'MainWindow.cpp' files.
+
+### Example Models
+Two examples models ('CupNew' and 'turbine') are included with the code.
  
